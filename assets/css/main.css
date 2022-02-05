@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------------
-  Template: Metanova
+  Template: Eastern - Creative Multipurpose Template
   Author: 
   Version: 1.0.3
 ----------------------------------------------------------------------------*/
@@ -73,7 +73,7 @@ body {
 body {
     font-family: PT Sans, sans-serif;
     font-size: 15px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     padding: 0 !important;
 }
 
