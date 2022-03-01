@@ -1,4 +1,4 @@
-var Eastern = function() {
+var metanova = function() {
     'use strict';
 
     // Loaders 
@@ -481,5 +481,5 @@ var Eastern = function() {
 }();
 
 $(document).ready(function() {
-    Eastern.init();
+    metanova.init();
 });
