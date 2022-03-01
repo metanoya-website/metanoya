@@ -1,4 +1,4 @@
-var metanova = function() {
+var Metanoya = function() {
     'use strict';
 
     // Loaders 
@@ -481,5 +481,5 @@ var metanova = function() {
 }();
 
 $(document).ready(function() {
-    metanova.init();
+    Metanoya.init();
 });
