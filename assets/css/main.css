@@ -3630,7 +3630,7 @@ section {
 .header.navbar-fixed-top.sticky ul.navbar-nav > li > a {
     padding-top: 25px;
     padding-bottom: 25px;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -3690,19 +3690,19 @@ section {
 @media only screen and (max-width: 992px) {
     .header .navbar-collapse {
         /* background-color: #333743; */
-        background-image: url(../images/texture.jpg);
+        background-image: url(../images/menu-bg.jpg);
         padding: 0px;
         overflow-x: hidden;
         max-height: 400px;
     }
     .header .navbar-collapse ul li.open ul.dropdown-menu {
         /* background-color: #2a2a33; */
-        background-image: url(../images/texture.jpg);
+        background-image: url(../images/menu-bg.jpg);
     }
     .header .navbar-collapse ul li.open ul.dropdown-menu li a:hover,
     .header .navbar-collapse ul li.open ul.dropdown-menu li a:focus {
         /* background-color: #2a2a33; */
-        background-image: url(../images/texture.jpg);
+        background-image: url(../images/menu-bg.jpg);
     }
 }
 
@@ -3733,7 +3733,8 @@ section {
 
 .header.header-transparent,
 .header.header-sticky.sticky {
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-image: url(../images/menu-bg.jpg);
     top: 0px;
     z-index: 1088;
     width: 100%;
@@ -3774,7 +3775,8 @@ section {
 }
 
 .header.header-sticky.sticky {
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-image: url(../images/menu-bg.jpg);
     position: fixed;
     -webkit-box-shadow: 2px 10px -7px rgba(0, 0, 0, 0.5) false;
     -moz-box-shadow: 2px 10px -7px rgba(0, 0, 0, 0.5) false;
@@ -3936,7 +3938,8 @@ section {
     margin: 0px;
     box-shadow: none;
     min-width: 200px;
-    background-color: #2a2a33;
+    /* background-color: #2a2a33; */
+    background-image: url(../images/menu-bg.jpg) ;
 }
 
 @media only screen and (min-width: 992px) {
@@ -3980,7 +3983,7 @@ section {
 .header .dropdown-menu .mega-menu-content ul li a {
     display: block;
     line-height: 2;
-    color: #999;
+    color: black;
     padding: 5px 15px;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -11765,4 +11768,8 @@ h5.heading-1.second-line:after {
 
 .lb-2{
     background-color: #ecd0b2!important;
+}
+
+.head-bg{
+    background-image: url(../images/menu-bg.jpg);
 }
