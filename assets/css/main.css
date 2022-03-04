@@ -5424,7 +5424,7 @@ section {
 
 .hero-img {
     background-size: cover;
-    background-position: center center;
+    /* background-position: center center; */
     background-repeat: no-repeat;
 }
 
@@ -6418,7 +6418,8 @@ section {
 ----------------------------*/
 
 .footer-default {
-    background-color: #333743;
+    background-image: url(../images/texture.jpg);
+    /* background-color: #333743; */
     padding-top: 80px;
 }
 
