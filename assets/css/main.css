@@ -6431,7 +6431,8 @@ section {
 ----------------------------*/
 
 .footer-default {
-    filter: brightness(90%);
+    /* filter: brightness(90%); */
+    filter: grayscale(25%);
     background-image: url(../images/texture.jpg);
     /* background-color: #333743; */
     padding-top: 80px;
