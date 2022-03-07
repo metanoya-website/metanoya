@@ -84,7 +84,7 @@ body {
 
 body {
     font-family: 'dyslexia';
-    font-size: 17px;
+    font-size: 19px;
     /* overflow-x: hidden; */
     padding: 0 !important;
 }
@@ -289,9 +289,9 @@ h6 a {
     background-color: #f6f7fb;
 } */
 
-.bg-gray .heading-1:before {
+/* .bg-gray .heading-1:before {
     
-}
+} */
 
 .bg-danger {
     background-color: #f54053;
@@ -318,8 +318,12 @@ iframe {
 --------- 2. Section ---------
 ----------------------------*/
 
-section {
+/* section {
     background-color: #fff;
+} */
+
+section {
+    background-color: #d1dac5;
 }
 
 .section-1 {
@@ -3690,19 +3694,22 @@ section {
 @media only screen and (max-width: 992px) {
     .header .navbar-collapse {
         /* background-color: #333743; */
-        background-image: url(../images/menu-bg.jpg);
+        /* background-image: url(../images/menu-bg.jpg); */
+        background-color: #00ff40;
         padding: 0px;
         overflow-x: hidden;
         max-height: 400px;
     }
     .header .navbar-collapse ul li.open ul.dropdown-menu {
         /* background-color: #2a2a33; */
-        background-image: url(../images/menu-bg.jpg);
+        /* background-image: url(../images/menu-bg.jpg); */
+        background-color: #00ff40;
     }
     .header .navbar-collapse ul li.open ul.dropdown-menu li a:hover,
     .header .navbar-collapse ul li.open ul.dropdown-menu li a:focus {
         /* background-color: #2a2a33; */
-        background-image: url(../images/menu-bg.jpg);
+        /* background-image: url(../images/menu-bg.jpg); */
+        background-color: #00ff40;
     }
 }
 
@@ -3734,7 +3741,8 @@ section {
 .header.header-transparent,
 .header.header-sticky.sticky {
     /* background-color: transparent; */
-    background-image: url(../images/menu-bg.jpg);
+    /* background-image: url(../images/menu-bg.jpg); */
+    background-color: #00ff40;
     top: 0px;
     z-index: 1088;
     width: 100%;
@@ -3776,7 +3784,8 @@ section {
 
 .header.header-sticky.sticky {
     /* background-color: #fff; */
-    background-image: url(../images/menu-bg.jpg);
+    /* background-image: url(../images/menu-bg.jpg); */
+    background-color: #00ff40;
     position: fixed;
     -webkit-box-shadow: 2px 10px -7px rgba(0, 0, 0, 0.5) false;
     -moz-box-shadow: 2px 10px -7px rgba(0, 0, 0, 0.5) false;
@@ -3939,7 +3948,8 @@ section {
     box-shadow: none;
     min-width: 200px;
     /* background-color: #2a2a33; */
-    background-image: url(../images/menu-bg.jpg) ;
+    /* background-image: url(../images/menu-bg.jpg) ; */
+    background-color: #00ff40;
 }
 
 @media only screen and (min-width: 992px) {
@@ -8511,7 +8521,7 @@ button:focus {
     }
 }
 
-.heading-1:after {
+/* .heading-1:after {
     content: "";
     position: absolute;
     width: 55px;
@@ -8519,7 +8529,7 @@ button:focus {
     top: -30px;
     left: -25px;
     z-index: -2;
-}
+} */
 
 @media only screen and (max-width: 767px) {
     .heading-1:after {
@@ -8535,7 +8545,7 @@ button:focus {
     top: 0px;
     left: 0px;
     z-index: -1;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 .heading-1.text-center {
@@ -8570,9 +8580,9 @@ h1.heading-1:after {
     height: 85px;
 }
 
-h2.heading-1:after {
+/* h2.heading-1:after {
     height: 80px;
-}
+} */
 
 h2.heading-1.second-line:after {
     height: 108px;
@@ -11763,13 +11773,25 @@ h5.heading-1.second-line:after {
 
 /*# sourceMappingURL=main.css.map */
 .lb-1{
-    background-color: #dbe1f0!important;
+    background-color: #d1dac5!important;
 }
 
 .lb-2{
     background-color: #ecd0b2!important;
 }
 
-.head-bg{
+/* .head-bg{
     background-image: url(../images/menu-bg.jpg);
+} */
+
+.head-bg{
+background-color: #00ff40;
+}
+
+.head-bg-2{
+    background-color: #D3F3FE;
+}
+
+.lb-3{
+    background-color: #c9b9ee;
 }
