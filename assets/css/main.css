@@ -68,7 +68,7 @@
 
   @font-face {
     font-family: comic;
-    src: url(../fonts/COMIC.TTF) format("truetype");
+    src: url(../fonts/ComicSansMS3.ttf) format("truetype");
   }
 
 html {
