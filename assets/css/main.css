@@ -4025,15 +4025,14 @@ section {
     }
 }
 
-.header .dropdown-menu li.sub-menu > a:after {
-    /* font-family: "exclusive-icon"; */
-    font-family: 'dyslexia';
+/* .header .dropdown-menu li.sub-menu > a:after {
+    font-family: "exclusive-icon";
     content: "\e224";
     position: absolute;
     font-size: 7px;
     top: 12px;
     right: 15px;
-}
+} */
 
 @media only screen and (max-width: 992px) {
     .header .dropdown-menu li.sub-menu > a:after {
@@ -10538,7 +10537,7 @@ h5.heading-1.second-line:after {
     font-family: 'dyslexia';
     color: #333743;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 1px;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 25px;
@@ -11786,7 +11785,7 @@ h5.heading-1.second-line:after {
 } */
 
 .head-bg{
-background-color: #d5dff4;
+background-color: #bdcce9;
 }
 
 .head-bg-2{
