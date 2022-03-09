@@ -107,8 +107,8 @@ p {
     line-height: 1.8;
     letter-spacing: 0.5px;
     /* background-color: #ecd0b2; */
-    padding: 10px;
-    /* background-image: url(../images/img-bg4.jpg); */
+    padding: 15px;
+    background-image: url(../images/img-b.png);
 }
 
 span {
@@ -3999,6 +3999,7 @@ section {
 
 .header .dropdown-menu > li > a,
 .header .dropdown-menu .mega-menu-content ul li a {
+    font-size: 16px;
     display: block;
     line-height: 2;
     color: black;
@@ -11807,4 +11808,8 @@ background-color: #bdcce9;
 
 .lb-4{
     background-color: #c5acff;
+}
+
+.page-theme1{
+    background-color: #bdcce9!important;
 }
