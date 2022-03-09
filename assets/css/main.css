@@ -108,7 +108,7 @@ p {
     letter-spacing: 0.5px;
     /* background-color: #ecd0b2; */
     padding: 15px;
-    background-image: url(../images/img-b.png);
+    /* background-image: url(../images/b1.png); */
 }
 
 span {
@@ -10207,8 +10207,8 @@ h5.heading-1.second-line:after {
 .panel .panel-title > a:after {
     position: absolute;
     content: "\e199";
-    /* font-family: "exclusive-icon"; */
-    font-family: 'comic';
+    font-family: "exclusive-icon";
+    /* font-family: 'comic'; */
     right: 20px;
     font-size: 10px;
     padding: 3px 4.5px;
@@ -11812,4 +11812,12 @@ background-color: #bdcce9;
 
 .page-theme1{
     background-color: #bdcce9!important;
+}
+
+.page-theme2{
+    background-color: #ecd0b2;
+}
+
+.bg-img1{
+    background-image: url(../images/b1.png);
 }
