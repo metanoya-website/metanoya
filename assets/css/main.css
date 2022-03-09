@@ -3697,7 +3697,8 @@ section {
     border: none;
     border-radius: 0;
     margin-bottom: 0;
-    height: 110px!important;
+    /* height: 110px!important; */
+    min-height: 100px;
 }
 
 @media only screen and (max-width: 992px) {
