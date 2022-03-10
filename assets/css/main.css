@@ -6443,7 +6443,7 @@ section {
 
 .footer-default {
     /* filter: brightness(90%); */
-    filter: grayscale(25%);
+    /* filter: grayscale(25%); */
     background-image: url(../images/home-foot.png);
     /* background-color: #333743; */
     padding-top: 80px;
@@ -11831,6 +11831,7 @@ background-color: #D6EBC5;
 .bg-img1{
     background-image: url(../images/img-bg7.jpg);
 }
+
 
 .bg-img2{
     background-image: url(../images/img-b.png);
