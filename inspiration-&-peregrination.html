@@ -42,7 +42,7 @@
 
 	<div class="wrapper">
 		<!-- Header Start -->
-		<header id="menu" class="header header-sticky head-bg">
+		<header id="menu" class="header header-sticky page-theme4">
 			<nav class="navbar">
 				<div class="container">
 					<div class="menu-header">
@@ -151,7 +151,7 @@
 
 
 		<!-- Services Start -->
-		<section class="section-1">
+		<section class="section-1 page-theme4">
 			<div class="container">
 				<div class="text-center">
 					<h2 class="mrg-btm-20">Services </h2>
@@ -194,7 +194,7 @@
 		</section>
 
 
-		<section class="section-3 lb-4">
+		<section class="section-3">
 			<div class="container">
 				<div class="text-center">
 					<h2 class="mrg-btm-40">Customer Feedback</h2>
@@ -236,7 +236,7 @@
 		</section>
 
 
-		<section class="section-1">
+		<section class="section-1 page-theme4">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
@@ -279,7 +279,7 @@
 	<!-- wrapper -->
 
 	<!-- Footer Start -->
-	<section class="footer-default lb-2">
+	<section class="footer-default">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5">
@@ -375,3 +375,61 @@
 </body>
 
 </html>
+
+<style>
+	
+	.header .dropdown-menu {
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: none;
+    min-width: 200px;
+    /* background-color: #2a2a33; */
+    /* background-image: url(../images/menu-bg.jpg) ; */
+    background-color: #FED9CC!important;
+}
+
+.header.header-sticky.sticky {
+    /* background-color: #fff; */
+    /* background-image: url(../images/menu-bg.jpg); */
+    background-color: #FED9CC!important;
+    position: fixed;
+    -webkit-box-shadow: 2px 10px -7px rgba(0, 0, 0, 0.5) false;
+    -moz-box-shadow: 2px 10px -7px rgba(0, 0, 0, 0.5) false;
+    box-shadow: 2px 10px -7px rgba(0, 0, 0, 0.5) false;
+}
+
+.header.header-transparent,
+.header.header-sticky.sticky {
+    /* background-color: transparent; */
+    /* background-image: url(../images/menu-bg.jpg); */
+    background-color: #FED9CC!important;
+    top: 0px;
+    z-index: 1088;
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .header .navbar-collapse {
+        /* background-color: #333743; */
+        /* background-image: url(../images/menu-bg.jpg); */
+        background-color: #FED9CC!important;
+        padding: 0px;
+        overflow-x: hidden;
+        max-height: 400px;
+    }
+    .header .navbar-collapse ul li.open ul.dropdown-menu {
+        /* background-color: #2a2a33; */
+        /* background-image: url(../images/menu-bg.jpg); */
+        background-color: #FED9CC!important;
+    }
+    .header .navbar-collapse ul li.open ul.dropdown-menu li a:hover,
+    .header .navbar-collapse ul li.open ul.dropdown-menu li a:focus {
+        /* background-color: #2a2a33; */
+        /* background-image: url(../images/menu-bg.jpg); */
+        background-color: #FED9CC!important;
+    }
+}
+
+</style>
