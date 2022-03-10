@@ -42,7 +42,7 @@
 
 	<div class="wrapper">
 		<!-- Header Start -->
-		<header id="menu" class="header header-sticky head-bg">
+		<header id="menu" class="header header-sticky page-theme3">
 			<nav class="navbar">
 				<div class="container">
 					<div class="menu-header">
@@ -151,7 +151,7 @@
 
 
 		<!-- About Start -->
-		<section class="section-1">
+		<section class="section-1 page-theme3">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
@@ -200,7 +200,7 @@
 		</section>
 
 
-		<section class="section-4">
+		<section class="section-4 page-theme3">
 			<div class="content-block-2">
 				<div class="container-fluid">
 					<div class="row">
@@ -234,7 +234,7 @@
 		</section>
 
 
-		<section class="section-1">
+		<section class="section-1 page-theme3">
 			<div class="container">
 				<div class="text-center mrg-btm-50">
 					<h2 class="mrg-btm-20">Meet The Team</h2>
@@ -367,7 +367,7 @@
 		</section>
 
 
-		<section class="section-1 parallax-bg dark-overlay">
+		<section class="section-1 parallax-bg dark-overlay page-theme3">
 			<img class="parallax-img no-mobile-parallax" src="assets/images/bg-50.jpg" alt=""
 				data-parallax='{"y": 150}'>
 			<div class="container">
@@ -506,3 +506,61 @@
 </body>
 
 </html>
+
+<style>
+	
+	.header .dropdown-menu {
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: none;
+    min-width: 200px;
+    /* background-color: #2a2a33; */
+    /* background-image: url(../images/menu-bg.jpg) ; */
+    background-color: #D3F3FF!important;
+}
+
+.header.header-sticky.sticky {
+    /* background-color: #fff; */
+    /* background-image: url(../images/menu-bg.jpg); */
+    background-color: #D3F3FF!important;
+    position: fixed;
+    -webkit-box-shadow: 2px 10px -7px rgba(0, 0, 0, 0.5) false;
+    -moz-box-shadow: 2px 10px -7px rgba(0, 0, 0, 0.5) false;
+    box-shadow: 2px 10px -7px rgba(0, 0, 0, 0.5) false;
+}
+
+.header.header-transparent,
+.header.header-sticky.sticky {
+    /* background-color: transparent; */
+    /* background-image: url(../images/menu-bg.jpg); */
+    background-color: #D3F3FF!important;
+    top: 0px;
+    z-index: 1088;
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .header .navbar-collapse {
+        /* background-color: #333743; */
+        /* background-image: url(../images/menu-bg.jpg); */
+        background-color: #D3F3FF!important;
+        padding: 0px;
+        overflow-x: hidden;
+        max-height: 400px;
+    }
+    .header .navbar-collapse ul li.open ul.dropdown-menu {
+        /* background-color: #2a2a33; */
+        /* background-image: url(../images/menu-bg.jpg); */
+        background-color: #D3F3FF!important;
+    }
+    .header .navbar-collapse ul li.open ul.dropdown-menu li a:hover,
+    .header .navbar-collapse ul li.open ul.dropdown-menu li a:focus {
+        /* background-color: #2a2a33; */
+        /* background-image: url(../images/menu-bg.jpg); */
+        background-color: #D3F3FF!important;
+    }
+}
+
+</style>
