@@ -4005,12 +4005,13 @@ section {
     display: block;
     line-height: 2;
     color: black;
-    padding: 5px 15px;
+    padding: 5px 35px;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
+    background: transparent!important;
 }
 
 @media only screen and (max-width: 992px) {
@@ -4025,14 +4026,16 @@ section {
     .header .dropdown-menu .mega-menu-content ul li a:focus {
         background-color: transparent;
         color: #fff;
+
     }
 }
 
 @media only screen and (min-width: 992px) {
     .header .dropdown-menu li:hover > a,
     .header .dropdown-menu li:focus > a {
-        background-color: #333743;
-        color: #fff;
+        /* background-color: #333743; */
+        /* color: #fff; */
+        color: #2e71f0;
     }
 }
 
@@ -6443,9 +6446,9 @@ section {
 
 .footer-default {
     /* filter: brightness(90%); */
-    filter: grayscale(25%);
-    background-image: url(../images/img-footer6.jpg );
-    /* background-color: #333743; */
+    /* filter: grayscale(25%); */
+    /* background-image: url(../images/img-footer6.jpg ); */
+    background-color: #ecd0b2;
     padding-top: 80px;
 }
 
