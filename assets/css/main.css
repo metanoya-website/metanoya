@@ -330,6 +330,10 @@ iframe {
     background-color: #fff;
 } */
 
+.parents-message {
+    padding: 0px 0px!important;
+}
+
 section {
     background-color: #d1dac5;
 }
