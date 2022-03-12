@@ -6045,7 +6045,7 @@ section {
 .features-block-5 {
     position: relative;
     /* background-color: #fff; */
-    background-image: url(../images/img-bg4.jpg);
+    background-image: url(../images/paper-bg.jpeg);
     margin-bottom: 30px;
     -webkit-box-shadow: 1px 3px 15px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 1px 3px 15px 0px rgba(0, 0, 0, 0.1);
@@ -11842,7 +11842,7 @@ background-color: #D6EBC5;
 }
 
 .bg-img1{
-    background-image: url(../images/paper-bg2.jpg);
+    background-image: url(../images/paper-bg.jpeg);
 }
 
 
