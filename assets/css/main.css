@@ -11845,7 +11845,10 @@ background-color: #F4FFAD;
 }
 
 .bg-img1{
-    background-image: url(../images/meta4.jpg);
+    background-image: url(../images/final-text-bg4.jpg);
+background-repeat: no-repeat;
+    background-size: 100% 100%;
+
 }
 
 

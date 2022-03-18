@@ -11858,7 +11858,9 @@ background-color: #D6EBC5;
 }
 
 .bg-img6{
-    background-image: url(../images/img-bg88-whatspp.jpeg);
+    background-image: url(../images/image-f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bg-img7{
