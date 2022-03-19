@@ -394,6 +394,7 @@ section {
 
 .fixed-bg {
     background-attachment: fixed;
+    /* position: fixed; */
 }
 
 .parallax-bg {
@@ -11873,10 +11874,20 @@ background-color: #F4FFAD;
     background-image: url(../images/tex.jpg);
 }
 
-/* @media only screen and (max-width: 600px) {
-    .responsive-bg {
-      background-image: url(../images/watermark-mobile.jpg)!important;
-     
-
-    }
-  } */
+@media only screen and (max-width: 600px) {
+    .responsive-bg:before {
+        content: "";
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -10;
+        background: url(../images/watermark-mobile.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+  }
