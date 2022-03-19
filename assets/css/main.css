@@ -11875,8 +11875,8 @@ background-color: #F4FFAD;
 
 @media only screen and (max-width: 600px) {
     .responsive-bg {
-      background-image: url(../images/watermark-1.jpg)!important;
-      background-size: 100% 100%;
+      background-image: url(../images/watermark-mobile.jpg)!important;
+      /* background-size: 100% 100%; */
 
     }
   }
