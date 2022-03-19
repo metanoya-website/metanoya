@@ -11873,10 +11873,10 @@ background-color: #F4FFAD;
     background-image: url(../images/tex.jpg);
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .responsive-bg {
       background-image: url(../images/watermark-mobile.jpg)!important;
-      /* background-size: 100% 100%; */
+     
 
     }
-  }
+  } */
