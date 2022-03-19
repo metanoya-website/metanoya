@@ -11791,6 +11791,7 @@ h5.heading-1.second-line:after {
 
 
 /*# sourceMappingURL=main.css.map */
+
 .lb-1{
     background-color: #d1dac5!important;
 }
@@ -11846,7 +11847,7 @@ background-color: #F4FFAD;
 
 .bg-img1{
     background-image: url(../images/final-text-bg4.jpg);
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 100% 100%;
 
 }
@@ -11871,3 +11872,9 @@ background-repeat: no-repeat;
 .bg-img7{
     background-image: url(../images/tex.jpg);
 }
+
+@media only screen and (max-width: 600px) {
+    .responsive-bg {
+      background-image: url(../images/watermark-mobile.jpg)!important;
+    }
+  }
