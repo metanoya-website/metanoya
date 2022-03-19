@@ -11874,7 +11874,7 @@ background-color: #F4FFAD;
     background-image: url(../images/tex.jpg);
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .responsive-bg:before {
         content: "";
         display: block;
@@ -11890,4 +11890,4 @@ background-color: #F4FFAD;
         -o-background-size: cover;
         background-size: cover;
       }
-  }
+  } */
