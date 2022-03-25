@@ -3705,7 +3705,7 @@ section {
     .header .navbar-collapse {
         /* background-color: #333743; */
         /* background-image: url(../images/menu-bg.jpg); */
-        background-color: #ecd0b2;
+        background-color: #ffc290;
         padding: 0px;
         overflow-x: hidden;
         max-height: 400px;
@@ -3713,13 +3713,13 @@ section {
     .header .navbar-collapse ul li.open ul.dropdown-menu {
         /* background-color: #2a2a33; */
         /* background-image: url(../images/menu-bg.jpg); */
-        background-color: #ecd0b2;
+        background-color: #ffc290;
     }
     .header .navbar-collapse ul li.open ul.dropdown-menu li a:hover,
     .header .navbar-collapse ul li.open ul.dropdown-menu li a:focus {
         /* background-color: #2a2a33; */
         /* background-image: url(../images/menu-bg.jpg); */
-        background-color: #ecd0b2;
+        background-color: #ffc290;
     }
 }
 
@@ -3752,7 +3752,7 @@ section {
 .header.header-sticky.sticky {
     /* background-color: transparent; */
     /* background-image: url(../images/menu-bg.jpg); */
-    background-color: #ecd0b2;
+    background-color: #ffc290;
     top: 0px;
     z-index: 1088;
     width: 100%;
@@ -3795,7 +3795,7 @@ section {
 .header.header-sticky.sticky {
     /* background-color: #fff; */
     /* background-image: url(../images/menu-bg.jpg); */
-    background-color: #ecd0b2;
+    background-color: #ffc290;
     position: fixed;
     -webkit-box-shadow: 2px 10px -7px rgba(0, 0, 0, 0.5) false;
     -moz-box-shadow: 2px 10px -7px rgba(0, 0, 0, 0.5) false;
@@ -3959,7 +3959,7 @@ section {
     min-width: 200px;
     /* background-color: #2a2a33; */
     /* background-image: url(../images/menu-bg.jpg) ; */
-    background-color: #ecd0b2;
+    background-color: #ffc290;
 }
 
 @media only screen and (min-width: 992px) {
@@ -6448,7 +6448,7 @@ section {
     /* filter: brightness(90%); */
     /* filter: grayscale(25%); */
     /* background-image: url(../images/img-footer6.jpg ); */
-    background-color: #ecd0b2;
+    background-color: #ffc290;
     padding-top: 80px;
 }
 
@@ -11788,6 +11788,7 @@ h5.heading-1.second-line:after {
 
 
 /*# sourceMappingURL=main.css.map */
+
 .lb-1{
     background-color: #d1dac5!important;
 }
@@ -11821,7 +11822,7 @@ background-color: #D6EBC5;
 }
 
 .page-theme2{
-    background-color: #ecd0b2;
+    background-color: #ffc290;
 }
 
 .page-theme3{
@@ -11864,4 +11865,13 @@ background-color: #D6EBC5;
 
 .bg-img7{
     background-image: url(../images/tex.jpg);
+}
+
+.texture-bg-3{
+    height: 100%;
+    background: radial-gradient(circle, #B3CCA2 0.75em, rgba(255, 255, 255, 0) 0.75em, rgba(255, 255, 255, 0) 1.5em, rgba(204, 195, 148, 0.7) 1.5em, rgba(204, 195, 148, 0.7) 1.8em, rgba(255, 255, 255, 0) 1.8em) 0 0, radial-gradient(circle, #CCC394 0.75em, rgba(255, 255, 255, 0) 0.75em, rgba(255, 255, 255, 0) 1.5em, rgba(179, 204, 162, 0.7) 1.5em, rgba(179, 204, 162, 0.7) 1.8em, rgba(255, 255, 255, 0) 1.8em) 3em 3em, radial-gradient(circle, rgba(179, 204, 162, 0.7) 0.375em, rgba(255, 255, 255, 0) 0.375em) 3em 0, radial-gradient(circle, rgba(204, 195, 148, 0.7) 0.3em, rgba(255, 255, 255, 0) 0.3em) 0 3em;
+    background-size: 6em 6em;
+    background-color: #ffc290;
+    background-repeat: repeat;
+    font: 16px/2 "Trebuchet MS", Verdana, sans-serif;
 }

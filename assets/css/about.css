@@ -3705,7 +3705,7 @@ section {
     .header .navbar-collapse {
         /* background-color: #333743; */
         /* background-image: url(../images/menu-bg.jpg); */
-        background-color: #D3F3FF;
+        background-color: #6d9a96;
         padding: 0px;
         overflow-x: hidden;
         max-height: 400px;
@@ -3713,13 +3713,13 @@ section {
     .header .navbar-collapse ul li.open ul.dropdown-menu {
         /* background-color: #2a2a33; */
         /* background-image: url(../images/menu-bg.jpg); */
-        background-color: #D3F3FF;
+        background-color: #6d9a96;
     }
     .header .navbar-collapse ul li.open ul.dropdown-menu li a:hover,
     .header .navbar-collapse ul li.open ul.dropdown-menu li a:focus {
         /* background-color: #2a2a33; */
         /* background-image: url(../images/menu-bg.jpg); */
-        background-color: #D3F3FF;
+        background-color: #6d9a96;
     }
 }
 
@@ -3752,7 +3752,7 @@ section {
 .header.header-sticky.sticky {
     /* background-color: transparent; */
     /* background-image: url(../images/menu-bg.jpg); */
-    background-color: #D3F3FF;
+    background-color: #6d9a96;
     top: 0px;
     z-index: 1088;
     width: 100%;
@@ -3795,7 +3795,7 @@ section {
 .header.header-sticky.sticky {
     /* background-color: #fff; */
     /* background-image: url(../images/menu-bg.jpg); */
-    background-color: #D3F3FF;
+    background-color: #6d9a96;
     position: fixed;
     -webkit-box-shadow: 2px 10px -7px rgba(0, 0, 0, 0.5) false;
     -moz-box-shadow: 2px 10px -7px rgba(0, 0, 0, 0.5) false;
@@ -3959,7 +3959,7 @@ section {
     min-width: 200px;
     /* background-color: #2a2a33; */
     /* background-image: url(../images/menu-bg.jpg) ; */
-    background-color: #D3F3FF;
+    background-color: #6d9a96;
 }
 
 @media only screen and (min-width: 992px) {
@@ -6447,7 +6447,7 @@ section {
     /* filter: brightness(90%); */
     /* filter: grayscale(25%); */
     /* background-image: url(../images/img-footer3.jpg ); */
-    background-color: #D3F3FF;
+    background-color: #6d9a96;
     padding-top: 80px;
 }
 
@@ -11787,6 +11787,8 @@ h5.heading-1.second-line:after {
 
 
 /*# sourceMappingURL=main.css.map */
+
+
 .lb-1{
     background-color: #d1dac5!important;
 }
@@ -11829,7 +11831,7 @@ background-color: #D6EBC5;
 
 
 .page-theme4{
-    background-color: #D3F3FF;
+    background-color: #6d9a96;
 }
 
 .page-theme5{
@@ -11865,4 +11867,20 @@ background-color: #D6EBC5;
 
 .bg-img7{
     background-image: url(../images/tex.jpg);
+}
+
+.texture-bg-2{
+        height: 100%;
+        background: linear-gradient(68deg, #C7C5A7 0.9em, rgba(255, 255, 255, 0) 0.99em) 3em -3em, linear-gradient(-68deg, #C7C5A7 0.9em, rgba(255, 255, 255, 0) 0.99em) -3em -3em, radial-gradient(circle, #C7C5A7 0.9em, rgba(255, 255, 255, 0) 0.99em) 0 0, linear-gradient(68deg, #8BA88F 0.9em, rgba(255, 255, 255, 0) 0.99em) 0 0, linear-gradient(-68deg, #8BA88F 0.9em, rgba(255, 255, 255, 0) 0.99em) 0 0, radial-gradient(circle, #8BA88F 0.9em, rgba(255, 255, 255, 0) 0.99em) 3em 3em;
+        background-size: 6em 6em;
+        background-color: #F0DFD0;
+        background-repeat: repeat;
+        font: 14px/2 "Trebuchet MS", Verdana, sans-serif;
+
+}
+
+.texture-bg{
+    height: 100%;
+  background: repeating-linear-gradient(-45deg, transparent, transparent 1em, rgba(109, 154, 150, 0.4) 0, rgba(109, 154, 150, 0.1) 2em, transparent 0, transparent 1em, rgba(109, 154, 150, 0.3) 0, rgba(109, 154, 150, 0.2) 4em, transparent 0, transparent 1em, rgba(192, 235, 250, 0.6) 0, rgba(192, 235, 250, 0.2) 2em), repeating-linear-gradient(45deg, transparent, transparent 1em, rgba(109, 154, 150, 0.4) 0, rgba(109, 154, 150, 0.1) 2em, transparent 0, transparent 1em, rgba(109, 154, 150, 0.3) 0, rgba(109, 154, 150, 0.2) 4em, transparent 0, transparent 1em, rgba(192, 235, 250, 0.4) 0, rgba(192, 235, 250, 0.1) 2em), #FFF;
+  background-blend-mode: multiply;
 }
