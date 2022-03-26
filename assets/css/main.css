@@ -11922,6 +11922,10 @@ background-color: #EECB9D;
   background-size: 6em 6em;
   background-color: #EECB9D;
   background-repeat: repeat;
-  font: 14px/2 "Trebuchet MS", Verdana, sans-serif;
+  /* font: 14px/2 "Trebuchet MS", Verdana, sans-serif; */
 
+}
+
+.text-bg-img{
+background-image: url(../images/text-bg-home.jpg)!important
 }
